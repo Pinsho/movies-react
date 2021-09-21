@@ -1,0 +1,59 @@
+.grid {
+    list-style: none;
+}
+
+.title {
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1em;
+}
+
+.language {
+    background-color: black;
+    margin: 0 6px;
+    position: relative;
+    top: 25px;
+    float: right;
+    display: flex;
+    margin-top: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.7rem;
+    padding: 2px;
+}
+
+.year {
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-top: 2px;
+}
+
+.rating {
+    float: right;
+    font-size: 0.7rem;
+    color: cadetblue;
+    padding: 2px;
+}
+
+.imgMovie {
+    border-radius: 8px;
+    background-color: azure;
+}
+
+@media (max-width: 515px) {
+    .imgMovie  {
+        width: 90%;
+        height: auto;
+    }
+    .rating {
+        margin-right: 45px;
+    }
+    .language {
+        margin-right: 52px;
+    }
+}
